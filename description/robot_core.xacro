@@ -3,6 +3,8 @@
 
     <xacro:include filename="inertial_macros.xacro"/>
 
+    <!-- Defining Colours for the Robot -->
+
     <material name="white">
         <color rgba="1 1 1 1" />
     </material>
@@ -22,7 +24,6 @@
     <!-- BASE LINK -->
 
     <link name="base_link">
-
     </link>
 
 
